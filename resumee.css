@@ -1,0 +1,50 @@
+.nav{
+	display: flex;
+	justify-content: flex-end;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 18px;
+	background-color: #ff4647
+}
+.About1{
+	left: 0;
+	padding: 250px;
+	text-align: center;
+	width: 100%;
+	font-size: 60px;
+	font-family: Magneto;
+	color: white;
+	background-color: #3c3c3c
+}
+.Work{
+	text-align: center;
+	padding:100px;
+	color: white;
+	font-family: Algerian;
+	top: 0;
+	background-color: #ffa600
+}
+.projects{
+	display: grid;
+  	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  	grid-gap: 60px;
+  	width: 100%;
+  	max-width: 1280px;
+  	margin-bottom: 30px;
+}
+.Contact{
+	left: 0;
+	padding: 80px;
+	text-align: center;
+	width: 100%;
+	color: white;
+	background-color: #3c3c3c
+}
+.Footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: white;
+	background-color: #ff0000
+}
